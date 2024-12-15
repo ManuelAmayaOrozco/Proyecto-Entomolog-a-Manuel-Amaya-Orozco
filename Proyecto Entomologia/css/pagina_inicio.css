@@ -1,0 +1,434 @@
+  /*SECCIÓN HEADER*/
+  
+  header {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  }
+
+  /*El header en sí*/
+
+  .header {
+    background-color: #93d866;
+    border-top: 5px solid #0b6600;
+    border-bottom: 5px solid #0b6600;
+    width: 100%;
+  }
+
+  /*Contenedor del header*/
+
+  .header-container {
+    display: flex;
+    gap: 20px;
+  }
+
+  /*Contenedor del logo*/
+
+  .logo-wrapper {
+    width: 19%;
+    cursor: pointer;
+  }
+
+  /*Imagen del logo*/
+
+  .logo {
+    object-fit: fill;
+    width: 347px;
+    height: 175px;
+  }
+
+  /*Botones del header*/
+
+  .header-buttons {
+    width: 48%;
+  }
+
+  /*La agrupación de los botones del header*/
+
+  .button-group {
+    display: flex;
+    gap: 20px;
+  }
+
+  /*Propiedades del botón*/
+
+  .nav-button {
+    border: 3px solid #0b6600;
+    background: #44ab00;
+    min-height: 156px;
+    width: 33%;
+    color: #fff;
+    text-align: center;
+    letter-spacing: -0.43px;
+    padding: 16px;
+    font: 500 28px/22px Geologica, sans-serif;
+    cursor: pointer;
+  }
+
+  /*El contenido del botón*/
+
+  .button-content {
+    position: relative;
+    min-height: 124px;
+    padding: 27px 20px;
+  }
+
+  /*El interior del botón*/
+
+  .button-background {
+    stroke-width: 3px;
+    box-shadow: 0 30px 50px 0 rgba(0,0,0,0.25) inset;
+    background-color: #44ab00;
+    border-radius: 50%;
+    position: absolute;
+    width: 230px;
+    height: 170px;
+    right: 5px;
+    bottom: 5px;
+    border: 3px solid #0b6600;
+  }
+
+  /*El interior del botón (cuando pasa el ratón por encima)*/
+
+  .button-background:hover {
+    stroke-width: 3px;
+    box-shadow: 0 30px 50px 0 rgba(0,0,0,0.25) inset;
+    background-color: #93D866;
+    border-radius: 50%;
+    position: absolute;
+    width: 230px;
+    height: 170px;
+    right: 5px;
+    bottom: 5px;
+    border: 3px solid #0b6600;
+  }
+
+  /*El interior del botón (al hacer click)*/
+
+  .button-background:active {
+    stroke-width: 3px;
+    box-shadow: 0 30px 50px 0 rgba(0,0,0,0.25) inset;
+    background-color: #0B6600;
+    border-radius: 50%;
+    position: absolute;
+    width: 230px;
+    height: 170px;
+    right: 5px;
+    bottom: 5px;
+    border: 3px solid #0b6600;
+  }
+
+  /*El texto del botón*/
+
+  .button-text {
+    text-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    -webkit-text-stroke: 1px #0b6600;
+    position: relative;
+    top: 45px;
+    z-index: 1;
+    width: 128px;
+    margin: auto 0;
+  }
+
+  /*La sección del buscador y el usuario del header*/
+
+  .search-and-user-wrapper {
+    width: 32%;
+    margin: auto 0;
+  }
+
+  /*El contenedor de la sección del buscador y el usuario del header*/
+
+  .search-and-user-container {
+    display: flex;
+    gap: 20px;
+  }
+
+  /*El buscador del header*/
+
+  .search-input {
+    position: relative;
+    top: 2em;
+    width: 55%;
+    height: 25%;
+    border: 3px solid #0b6600;
+    background-color: #fff;
+    min-height: 43px;
+    color: #656566;
+    text-align: start;
+    letter-spacing: -0.43px;
+    padding: 11px 19px 11px 5px;
+    font: 400 20px/1.1 Gothic A1, sans-serif;
+  }
+
+  /*El contenedor de la imagen del usuario*/
+
+  .profile-image {
+    width: 25%;
+  }
+
+  /*La imagen del usuario*/
+
+  .profile-pic {
+    aspect-ratio: 0.99;
+    object-fit: contain;
+    width: 140px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  /*SECCIÓN PRINCIPAL*/
+
+  /*El contenedor principal de la página*/
+
+  .welcome-container {
+    margin: 82px 150px;
+    padding-left: 10%;
+    color: #000;
+    letter-spacing: -0.43px;
+  }
+
+  /*Sección de bienvenida*/
+  
+  .welcome-section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+    width: 100%;
+    max-width: 1227px;
+    align-self: center;
+  }
+
+  /*Contenedor de la sección de bienvenida*/
+  
+  .welcome-content {
+    display: flex;
+    gap: 20px;
+  }
+
+  /*Texto de bienvenida*/
+  
+  .welcome-text {
+    width: 44%;
+    color: #000;
+    letter-spacing: -0.43px;
+  }
+
+  /*Título de bievenida*/
+  
+  .welcome-heading {
+    font: 900 60px/1 Geologica, sans-serif;
+    text-align: center;
+    margin-bottom: 31px;
+  }
+
+  /*Descripción de bienvenida*/
+  
+  .welcome-description {
+    font: 400 20px/22px Gothic A1, sans-serif;
+    position: relative;
+    padding: 20px;
+  }
+
+  /*Contenedor imagen de bienvenida*/
+  
+  .welcome-image {
+    width: 56%;
+  }
+
+  /*Imagen de bienvenida*/
+  
+  .welcome-illustration {
+    aspect-ratio: 2.16;
+    object-fit: contain;
+    width: 100%;
+    margin-top: 129px;
+  }
+
+  /*Sección de destacado*/
+  
+  .featured-section {
+    margin-top: -46px;
+    margin-bottom: 120px;
+    width: 100%;
+    max-width: 1236px;
+    align-self: center;
+  }
+
+  /*Cabecera destacado*/
+  
+  .featured-heading {
+    color: #000;
+    font: 500 36px/1 Geologica, sans-serif;
+    margin-bottom: 40px;
+  }
+
+  /*Contenido post destacado*/
+  
+  .featured-content {
+    border: 10px solid var(--Verde-Oscuro, #0b6600);
+    background: var(--Verde-Claro, #93d866);
+    padding: 43px 80px 80px;
+    margin: -10px 0;
+  }
+
+  /*Contenedor título e imagen post destacado*/
+  
+  .featured-post {
+    display: flex;
+    gap: 20px;
+    max-width: 930px;
+  }
+
+  /*Imagen post destacado*/
+  
+  .post-image {
+    width: 63%;
+    position: relative;
+    min-height: 309px;
+    overflow: hidden;
+    border: 5px solid #0b6600;
+  }
+
+  /*Título del post destacado*/
+  
+  .post-title {
+    width: 37%;
+    border: 3px solid #0b6600;
+    min-height: 163px;
+    color: #000;
+    text-align: center;
+    letter-spacing: -0.43px;
+    font: 500 36px/1 Geologica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /*Texto del post destacado*/
+  
+  .post-description {
+    margin-top: 34px;
+    font: 400 20px/22px Gothic A1, sans-serif;
+    color: #000;
+    letter-spacing: -0.43px;
+    padding: 3px 3px 18px;
+    border: 3px solid #0b6600;
+    margin-bottom: 30px;
+  }
+
+  /*Botón del post destacado*/
+  
+  .read-more {
+    border-radius: 2px;
+    background: #44ab00;
+    color: #fff;
+    letter-spacing: -0.43px;
+    margin-right: 2%;
+    padding: 17px 80px;
+    font: 400 20px/1.1 Roboto, sans-serif;
+    border: 2px solid #0b6600;
+    cursor: pointer;
+    float: right;
+  }
+
+  /*Botón del post destacado (cuando el ratón pasa por encima)*/
+
+  .read-more:hover {
+    border-radius: 2px;
+    background: #93d866;
+    color: #fff;
+    letter-spacing: -0.43px;
+    margin-right: 2%;
+    padding: 17px 80px;
+    font: 400 20px/1.1 Roboto, sans-serif;
+    border: 2px solid #0b6600;
+    cursor: pointer;
+    float: right;
+  }
+
+  /*Botón del post destacado (al hacer click)*/
+
+  .read-more:active {
+    border-radius: 2px;
+    background: #0b6600;
+    color: #fff;
+    letter-spacing: -0.43px;
+    margin-right: 2%;
+    padding: 17px 80px;
+    font: 400 20px/1.1 Roboto, sans-serif;
+    border: 2px solid #0b6600;
+    cursor: pointer;
+    float: right;
+  }
+
+  /*Imagen de decoración 1*/
+
+  .deco-bug1 {
+    position: absolute;
+    bottom: -101.7%;
+  }
+
+  /*Imagen de decoración 2*/
+
+  .deco-bug2 {
+    position: absolute;
+    transform: rotateY(180deg);
+    bottom: -3%;
+    right: 20%
+  }
+
+  /*SECCIÓN FOOTER*/
+
+  /*El footer en sí*/
+  
+  .footer {
+    border-top: 5px solid #0b6600;
+    background: #93d866;
+    padding: 46px 2.5%;
+    width: 95%;
+  }
+
+  /*Imagen de decoración del footer*/
+
+  .footer-bug {
+    position: absolute;
+    bottom: -103.6%;
+  }
+
+  /*Contenido del footer*/
+
+  .footer-content {
+    display: flex;
+    text-align: end;
+    gap: 5px;
+  }
+
+  /*Sección de contacto*/
+
+  .contact-info {
+    width: 90%;
+    text-align: end;
+    letter-spacing: -0.43px;
+    font: 500 28px/1 Geologica, sans-serif;
+  }
+
+  /*Sección de redes sociales*/
+
+  .social-links {
+    width: 20%;
+    text-align: end;
+    letter-spacing: -0.43px;
+    font: 500 28px/1 Geologica, sans-serif;
+  }
+  .social-links li{
+    list-style: none;
+  }
+
+  /*Sección de información adicional*/
+
+  .additional-info {
+    width: 20%;
+    letter-spacing: -0.43px;
+    font: 500 28px/1 Geologica, sans-serif;
+  }

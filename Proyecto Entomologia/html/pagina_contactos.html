@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+		<title>BugBuds Contactos</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/pagina_contactos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Gothic+A1&display=swap" rel="stylesheet">
+	</head>
+  <body>
+    
+    <header class="header">
+
+      <div class="header-container">
+
+        <div class="logo-wrapper" onclick="location.href='./pagina_inicio.html'">
+          <img src="./images/BugBuds.png" alt="BugBuds Logo" class="logo" />
+        </div>
+        
+        <div class="header-buttons">
+
+          <div class="button-group">
+
+            <button class="nav-button" onclick="location.href='./pagina_creacion.html'">
+              <div class="button-content">
+                <div class="button-background"></div>
+                <span class="button-text">Crear</span>
+              </div>
+            </button>
+
+            <button class="nav-button" onclick="location.href='./pagina_busquedas.html'">
+              <div class="button-content">
+                <div class="button-background"></div>
+                <span class="button-text">Nuevos</span>
+              </div>
+            </button>
+
+            <button class="nav-button" onclick="location.href='./pagina_contactos.html'">
+              <div class="button-content">
+                <div class="button-background"></div>
+                <span class="button-text">Info</span>
+              </div>
+            </button>
+
+          </div>
+
+        </div>
+
+        <div class="search-and-user-wrapper">
+
+          <form class="search-and-user-container">
+
+            <input type="search" id="search-input" class="search-input" placeholder="Buscar..."/>
+            
+            <div class="profile-image">
+              <img src="./images/pfp.png" alt="User profile" class="profile-pic" onclick="location.href='./pagina_usuario.html'"/>
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </header>
+
+    <main class="contact-page">
+    
+      <section class="main-content">
+
+        <div class="content-text">
+
+          <h1 class="content-title">Nuestra empresa</h1>
+
+          <p class="content-description">¿Te gustaria unirte a nuestro grupo?</p>
+          <p class="content-description">Aquí en BugBuds siempre estamos buscando nueva gente que nos pueda ayudar en nuestros proyectos de conservación e investigación de todo tipo de insectos.</p>
+          <p class="content-description">Estamos completamente abiertos a cualquier personal, incluso aquellos sin formación laboral, tenemos diversos cursos disponibles para preparar a empleados y que puedan aprender a tratar a los diversos especimenes que mantenemos diariamente.</p>
+          <p class="content-description">Si no deseas trabajar con nosotros de forma permanente, siempre disponemos de puestos de voluntariado para aquellos que quieran apoyarnos en nuestras instalaciones y poder ver como trabajamos.</p>
+          <p class="content-description">Si trabajas para alguna empresa que está interesada en apoyar nuestra causa, pásales nuestro contacto o mándanos un correo.</p>
+        
+        </div>
+
+        <img src="./images/Bug6.png" alt="Company workplace illustration" class="content-image">
+      
+      </section>
+    
+      <section class="contact-form-section">
+
+        <form class="contact-form">
+
+          <h2 class="form-title">Contacto</h2>
+          
+          <input type="text" id="name" class="form-input form-base-input" placeholder="Nombre" required>
+          
+          <input type="text" id="lastname" class="form-input form-base-input" placeholder="Apellidos" required>
+          
+          <input type="email" id="email" class="form-input form-base-input" placeholder="Correo" required>
+          
+          <input type="tel" id="phone" class="form-input form-base-input" placeholder="Teléfono" required>
+          
+          <input type="text" id="company" class="form-input form-base-input" placeholder="Empresa (Opcional)">
+          
+          <textarea id="message" class="form-input form-textarea form-base-input" placeholder="Mensaje" required></textarea>
+          
+          <button type="submit" class="submit-button">Aceptar</button>
+
+        </form>
+      
+      </section>
+
+      <img src="./images/Bug4.png" class="deco-bug1"/>
+
+      <img src="./images/Bug4.png" class="deco-bug2"/>
+
+      <img src="./images/Bug5.png" class="deco-bug3"/>
+
+      <img src="./images/Bug5.png" class="deco-bug4"/>
+    
+    </main>
+
+    <footer class="footer">
+
+      <img src="./images/Bug2.png" class="footer-bug"/>
+
+      <div class="footer-content">
+
+        <div class="contact-info">
+          <h3>Contactos</h3>
+          <p>+34-874-234-234</p>
+        </div>
+
+        <div class="social-links">
+
+          <h3>Redes sociales</h3>
+            <ul>
+              <li><a href="./pagina_404.html">Twitter</a></li>
+              <li><a href="./pagina_404.html">Youtube</a></li>
+              <li><a href="./pagina_404.html">Facebook</a></li>
+            </ul>
+
+        </div>
+
+        <div class="additional-info">
+
+          <h3>Info adicional</h3>
+          <address>C/Mercedes nº 4 Zaragoza</address>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+  </body>
+
+</html>

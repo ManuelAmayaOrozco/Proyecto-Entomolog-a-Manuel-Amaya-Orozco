@@ -1,0 +1,355 @@
+  /*SECCIÓN HEADER*/
+  
+  header {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  }
+
+  /*El header en sí*/
+  
+  .header {
+    background-color: #93d866;
+    border-top: 5px solid #0b6600;
+    border-bottom: 5px solid #0b6600;
+    width: 100%;
+  }
+
+  /*Contenedor del header*/
+
+  .header-container {
+    display: flex;
+    gap: 20px;
+  }
+
+  /*Contenedor del logo*/
+
+  .logo-wrapper {
+    width: 19%;
+    cursor: pointer;
+  }
+
+  /*Imagen del logo*/
+
+  .logo {
+    object-fit: fill;
+    width: 347px;
+    height: 175px;
+  }
+
+  /*Botones del header*/
+
+  .header-buttons {
+    width: 48%;
+  }
+
+  /*La agrupación de los botones del header*/
+
+  .button-group {
+    display: flex;
+    gap: 20px;
+  }
+
+  /*Propiedades del botón*/
+
+  .nav-button {
+    border: 3px solid #0b6600;
+    background: #44ab00;
+    min-height: 156px;
+    width: 33%;
+    color: #fff;
+    text-align: center;
+    letter-spacing: -0.43px;
+    padding: 16px;
+    font: 500 28px/22px Geologica, sans-serif;
+    cursor: pointer;
+  }
+
+  /*El contenido del botón*/
+
+  .button-content {
+    position: relative;
+    min-height: 124px;
+    padding: 27px 20px;
+  }
+
+  /*El interior del botón*/
+
+  .button-background {
+    stroke-width: 3px;
+    box-shadow: 0 30px 50px 0 rgba(0,0,0,0.25) inset;
+    background-color: #44ab00;
+    border-radius: 50%;
+    position: absolute;
+    width: 230px;
+    height: 170px;
+    right: 5px;
+    bottom: 5px;
+    border: 3px solid #0b6600;
+  }
+
+  /*El interior del botón (cuando pasa el ratón por encima)*/
+
+  .button-background:hover {
+    stroke-width: 3px;
+    box-shadow: 0 30px 50px 0 rgba(0,0,0,0.25) inset;
+    background-color: #93D866;
+    border-radius: 50%;
+    position: absolute;
+    width: 230px;
+    height: 170px;
+    right: 5px;
+    bottom: 5px;
+    border: 3px solid #0b6600;
+  }
+
+  /*El interior del botón (al hacer click)*/
+
+  .button-background:active {
+    stroke-width: 3px;
+    box-shadow: 0 30px 50px 0 rgba(0,0,0,0.25) inset;
+    background-color: #0B6600;
+    border-radius: 50%;
+    position: absolute;
+    width: 230px;
+    height: 170px;
+    right: 5px;
+    bottom: 5px;
+    border: 3px solid #0b6600;
+  }
+
+  /*El texto del botón*/
+
+  .button-text {
+    text-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    -webkit-text-stroke: 1px #0b6600;
+    position: relative;
+    top: 45px;
+    z-index: 1;
+    width: 128px;
+    margin: auto 0;
+  }
+
+  /*La sección del buscador y el usuario del header*/
+
+  .search-and-user-wrapper {
+    width: 32%;
+    margin: auto 0;
+  }
+
+  /*El contenedor de la sección del buscador y el usuario del header*/
+
+  .search-and-user-container {
+    display: flex;
+    gap: 20px;
+  }
+
+  /*El buscador del header*/
+
+  .search-input {
+    position: relative;
+    top: 2em;
+    width: 55%;
+    height: 25%;
+    border: 3px solid #0b6600;
+    background-color: #fff;
+    min-height: 43px;
+    color: #656566;
+    text-align: start;
+    letter-spacing: -0.43px;
+    padding: 11px 19px 11px 5px;
+    font: 400 20px/1.1 Gothic A1, sans-serif;
+  }
+
+  /*El contenedor de la imagen del usuario*/
+
+  .profile-image {
+    width: 25%;
+  }
+
+  /*La imagen del usuario*/
+
+  .profile-pic {
+    aspect-ratio: 0.99;
+    object-fit: contain;
+    width: 140px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  /*SECCIÓN PRINCIPAL*/
+
+  /*El contenedor principal de la página*/
+
+  .creation-section {
+    margin: 82px 150px;
+    padding-left: 80px;
+    color: #000;
+    letter-spacing: -0.43px;
+  }
+
+  /*Nombre del usuario/autor del post*/
+
+  .author-name {
+    font: 500 36px/1 Geologica, sans-serif;
+    margin-left: 12px;
+  }
+
+  /*Contenido del post*/
+
+  .article-content {
+    border: 10px solid #0b6600;
+    background: #93d866;
+    margin-top: 30px;
+    padding: 61px 76px 100px;
+    max-width: 1256px;
+  }
+
+  /*Imagen del post*/
+
+  .article-image {
+    aspect-ratio: 2.35;
+    width: 100%;
+    stroke-width: 5px;
+    stroke: #0b6600;
+    border: 5px solid #0b6600;
+  }
+
+  /*Título del post*/
+
+  .article-title {
+    border: 3px solid #0b6600;
+    margin-top: 13px;
+    margin-left: 2px;
+    padding-top: 9%;
+    min-height: 163px;
+    width: 100%;
+    text-align: center;
+    font: 500 36px/1 Geologica, sans-serif;
+  }
+
+  /*Texto del post*/
+
+  .article-text {
+    width: 98.7%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 12px 9px 91px;
+    font: 400 20px/22px Gothic A1, sans-serif;
+    border: 3px solid #0b6600;
+  }
+
+  /*Botón de creación*/
+
+  .confirm {
+    border-radius: 2px;
+    background: #44ab00;
+    color: #fff;
+    letter-spacing: -0.43px;
+    margin-right: 2%;
+    margin-left: 84%;
+    align-self: flex-start;
+    padding: 17px 80px;
+    font: 400 20px/1.1 Roboto, sans-serif;
+    border: 2px solid #0b6600;
+    cursor: pointer;
+    float: right;
+  }
+
+  /*Botón de creación (cuando pasa el ratón por encima)*/
+
+  .confirm:hover {
+    border-radius: 2px;
+    background: #93d866;
+    color: #fff;
+    letter-spacing: -0.43px;
+    margin-right: 2%;
+    margin-left: 84%;
+    align-self: flex-start;
+    padding: 17px 80px;
+    font: 400 20px/1.1 Roboto, sans-serif;
+    border: 2px solid #0b6600;
+    cursor: pointer;
+    float: right;
+  }
+
+  /*Botón de creación (al hacer click)*/
+
+  .confirm:active {
+    border-radius: 2px;
+    background: #0b6600;
+    color: #fff;
+    letter-spacing: -0.43px;
+    margin-right: 2%;
+    margin-left: 84%;
+    align-self: flex-start;
+    padding: 17px 80px;
+    font: 400 20px/1.1 Roboto, sans-serif;
+    border: 2px solid #0b6600;
+    cursor: pointer;
+    float: right;
+  }
+
+  /*Imagen de decoración 1*/
+
+  .deco-bug1 {
+    position: absolute;
+    height: 20%;
+    bottom: -118%;
+    right: 1%;
+  }
+
+  /*SECCIÓN FOOTER*/
+
+  /*El footer en sí*/
+
+  .footer {
+    border-top: 5px solid #0b6600;
+    background: #93d866;
+    padding: 46px 2.5%;
+    width: 95%;
+  }
+
+  /*Imagen de decoración del footer*/
+
+  .footer-bug {
+    position: absolute;
+    bottom: -117.8%
+  }
+
+  /*Contenido del footer*/
+
+  .footer-content {
+    display: flex;
+    text-align: end;
+    gap: 5px;
+  }
+
+  /*Sección de contacto*/
+
+  .contact-info {
+    width: 90%;
+    text-align: end;
+    letter-spacing: -0.43px;
+    font: 500 28px/1 Geologica, sans-serif;
+  }
+
+  /*Sección de redes sociales*/
+
+  .social-links {
+    width: 20%;
+    text-align: end;
+    letter-spacing: -0.43px;
+    font: 500 28px/1 Geologica, sans-serif;
+  }
+  .social-links li{
+    list-style: none;
+  }
+
+  /*Sección de información adicional*/
+
+  .additional-info {
+    width: 20%;
+    letter-spacing: -0.43px;
+    font: 500 28px/1 Geologica, sans-serif;
+  }
